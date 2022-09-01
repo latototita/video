@@ -1,33 +1,25 @@
 {
-  "name": "livestream-server",
-  "version": "0.0.1",
-  "description": "A conference call implementation using WebRTC, Socket.io and Node.js.",
-  "main": "src/app.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "serve-favicon": "^2.5.0",
-    "socket.io": "^4.4.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.6"
-  },
+  "name": "video-call-app-nodejs",
+  "version": "1.0.0",
+  "description": "A conference call implementation using WebRTC, Socket.io and Node.js. This demo is ideal for not more than 4 devices.",
+  "main": "sever.js",
   "scripts": {
-    "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/app.js"
+    "start": "node sever.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amirsanni/livestream-server.git"
+    "url": "git+https://github.com/latototita/video.git"
   },
-  "keywords": [
-    "LiveStream",
-    "Server"
-  ],
-  "author": "Amir Sanni <amirsanni@gmail.com>",
+  "author": "Laban Omenyo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/amirsanni/livestream-server/issues"
+    "url": "https://github.com/latototita/video/issues"
   },
-  "homepage": "https://github.com/amirsanni/livestream-server#readme"
+  "homepage": "https://github.com/latototita/video#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^4.5.1"
+  }
 }
